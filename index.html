@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(32, 30, 30);
+        }
+        .month{
+            width: 400px;
+            height: 500px;
+            background-color: rgb(41, 37, 37);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px 2px white;
+        }
+        .six_days_1{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        .six_days_2{
+            width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        .six_days_3{
+            width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        .six_days_4{
+            width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        .six_days_5{
+            width: 100%;
+            display: flex;
+            /* margin: 0 2px; */
+        }
+        .six_days_1>span{
+            display: flex;
+            justify-content: center;
+            width: 12%;
+            height: 50px;
+            border-radius: 50%;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            cursor: pointer;
+            color: white;
+        }
+        .six_days_1>span:hover {
+            background-color: rgb(70, 62, 62);
+        }
+        .six_days_2>span{
+            display: flex;
+            justify-content: center;
+            width: 12%;
+            height: 50px;
+            border-radius: 50%;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            cursor: pointer;
+            color: white;
+        }
+        .six_days_2>span:hover {
+            background-color: rgb(70, 62, 62);
+        }
+        .six_days_3>span{
+            display: flex;
+            justify-content: center;
+            width: 12%;
+            height: 50px;
+            border-radius: 50%;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            cursor: pointer;
+            color: white;
+        }
+        .six_days_3>span:hover {
+            background-color: rgb(70, 62, 62);
+        }
+        .six_days_4>span{
+            display: flex;
+            justify-content: center;
+            width: 12%;
+            height: 50px;
+            border-radius: 50%;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            cursor: pointer;
+            color: white;
+        }
+        .six_days_4>span:hover {
+            background-color: rgb(70, 62, 62);
+        }
+        .six_days_5>span{
+            display: flex;
+            justify-content: center;
+            width: 12%;
+            height: 50px;
+            border-radius: 50%;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            cursor: pointer;
+            margin-left: 7px;
+            color: white;
+            
+        }
+        .six_days_5>span:hover {
+            background-color: rgb(70, 62, 62);
+        }
+        .week{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 50px;
+            border-radius: 50%;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .week>div{
+            width: 15%;
+            display: flex;
+            justify-content: space-around ;
+            color: white;
+
+        }
+        .month>h3{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="month">
+        <h3></h3>
+        <section class="week">
+            <div>Fr</div>
+            <div>Sa</div>
+            <div>Su</div>
+            <div>Mo</div>
+            <div>Tu</div>
+            <div>We</div>
+            <div>Th</div>
+        </section>
+        <div class="six_days_1">
+            <span data-day="1">1</span>
+            <span data-day="2">2</span>
+            <span data-day="3">3</span>
+            <span data-day="4">4</span>
+            <span data-day="5">5</span>
+            <span data-day="6">6</span>
+            <span data-day="7">7</span>
+        </div>
+        <div class="six_days_2">
+            <span data-day="8">8</span>
+            <span data-day="9">9</span>
+            <span data-day="10">10</span>
+            <span data-day="11">11</span>
+            <span data-day="12">12</span>
+            <span data-day="13">13</span>
+            <span data-day="14">14</span>
+        </div>
+        <div class="six_days_3">
+            <span data-day="15">15</span>
+            <span data-day="16">16</span>
+            <span data-day="17">17</span>
+            <span data-day="18">18</span>
+            <span data-day="19">19</span>
+            <span data-day="20">20</span>
+            <span data-day="21">21</span>
+        </div> 
+        <div class="six_days_4">
+            <span data-day="22">22</span>
+            <span data-day="23">23</span>
+            <span data-day="24">24</span>
+            <span data-day="25">25</span>
+            <span data-day="26">26</span>
+            <span data-day="27">27</span>
+            <span data-day="28">28</span>
+        </div>
+        <div class="six_days_5">
+            <span data-day="29">29</span>
+            <span data-day="30">30</span>
+            <span data-day="30">31</span>
+        </div>
+    </div>
+
+</body>
+<script>
+    let flag = ''
+    let y = new Date()
+    let x = new Date()
+    month()
+    _days()
+    function _days() {
+    x = x.getDate()
+    console.log(x)
+    let _day = document.querySelectorAll('.month>div>span')
+       for (let i=0 ;i<_day.length;i++){
+               let a = _day[i].getAttribute('data-day')
+               console.log(a);
+               if (a == x) {
+                _day[x-1].style.background='red'
+               }
+       }
+    console.log(_day)
+    }
+    function month() {
+    y = y.getMonth()
+    console.log(y);
+    switch (y) {
+        case 0: flag='Jan';break;
+        case 1: flag='Feb'; break;
+        case 2: flag='Mar'; break;
+        case 3: flag='Apr'; break;
+        case 4: flag='May'; break;
+        case 5: flag='Jun'; break;
+        case 6: flag='Jul'; break;
+        case 7: flag='Aug'; break;
+        case 8: flag='Sep'; break;
+        case 9: flag='Oct'; break;
+        case 10: flag='Nov'; break;
+        case 11: flag='Dec'; break;
+        default: flag='error';
+    }
+    }
+    let _year = new Date()
+    _year = _year.getFullYear()
+    document.getElementsByTagName('h3')[0].innerText=_year +'-'+ flag
+    
+</script>
+</html>
