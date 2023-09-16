@@ -1,7 +1,7 @@
 # galender
 ![viewfinal](1.png)
 
-- [Demo Project](https://amin-banam.github.io/Persian_temp/)
+- [Demo Project](https://amin-banam.github.io/galender/)
 
 - Developed by amin-banam
 
